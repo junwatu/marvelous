@@ -4,6 +4,7 @@
   "description": "Marvel API consumer",
   "main": "mrv",
   "scripts": {
+    "start": "node mrv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Equan Pr.",
