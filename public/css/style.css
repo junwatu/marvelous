@@ -1,0 +1,12 @@
+.container {
+    padding-top: 60px;
+}
+.superimg {
+    float: left;
+    margin-right: 20px;
+    padding: 7px;
+}
+
+.description {
+	text-align: justify;
+}
