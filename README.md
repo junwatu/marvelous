@@ -1,6 +1,6 @@
 Make your own Marvel API consumer
 
-Just for fun project
+Just for fun project.
 
 
 ----
