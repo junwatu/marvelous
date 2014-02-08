@@ -28,12 +28,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 var express = require('express'),
     app = express(),
-    routes = require('./lib/routes');
+    routes = require('./lib/routes'),
+    engine = require('consolidate'),
+    root = require('./lib/util');
 
-app.configure(function(){
-	app.use(express.bodyParser());
+app.configure(function() {
+    app.use(express.bodyParser());
+    app.use(express.static(root.path() + '/public'));
+    
+    app.set('views', root.path() + '/views');
+    app.engine('html', engine.handlebars);
+    app.set('view engine', 'html');
 });
 
 app.get('/', routes.home);
 app.get('/superhero/:name', routes.superhero);
-app.listen(3003, routes.appStatus);
+app.listen(3003, routes.appstatus);
