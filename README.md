@@ -1,6 +1,20 @@
-Make your own Marvel API consumer
+Just for fun Marvel API consumer app. 
 
-Just for fun project.
+###Demo
+
+http://marvelous-world.herokuapp.com/
+
+
+###Usage
+
+Type in url the superhero name that you are looking for
+
+	http://localhost:5000/superhero/x-23
+
+or with heroku demo
+
+	http://marvelous-world.herokuapp.com/superhero/wolverine
+
 
 
 ----
