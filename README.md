@@ -1,5 +1,27 @@
 Just for fun Marvel API consumer app. 
 
+
+###Install
+
+1. Get Marvel API Keys from `http://developer.marvel.com/`
+
+2. You must set environment variable `MARVEL_PRIVATE_KEY` to your system
+
+	    export MARVEL_PRIVATE_KEY=your_private_marvel_api_key
+	    
+    and environment variable MARVEL_PUBLIC_KEY
+    
+        export MARVEL_PUBLIC_KEY=your_public_marvel_api_key
+	    
+3. Fork or clone this repo then install deps with npm
+        
+        $ npm install
+
+4. Run it!
+
+        $ npm start
+        
+        
 ###Demo
 
 http://marvelous-world.herokuapp.com/
