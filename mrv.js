@@ -43,4 +43,4 @@ app.configure(function() {
 
 app.get('/', routes.home);
 app.get('/superhero/:name', routes.superhero);
-app.listen(5000, routes.appstatus);
+app.listen(process.env.PORT || 5000, routes.appstatus);
