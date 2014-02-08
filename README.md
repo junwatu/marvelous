@@ -7,11 +7,15 @@ http://marvelous-world.herokuapp.com/
 
 ###Usage
 
-Type in url the superhero name that you are looking for
+Nothing much!. It just like ordinary rest client but here we go, the basic url form to search marvel superhero by name
+
+    http://[url]/superhero/[name]
+
+for example to search `x-23` (superhot! :smile:) type like this
 
 	http://localhost:5000/superhero/x-23
 
-or with heroku demo
+or with heroku demo for `wolverine` you will type
 
 	http://marvelous-world.herokuapp.com/superhero/wolverine
 
